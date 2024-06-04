@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import mainImage from '../img/main-bg.webp';
+import mainImage from '../img/main-bg.jpg';
 
 
 import goal1 from '../img/goals/goal1.png';
@@ -20,7 +20,7 @@ const MainContent = () => {
                     <div className="text-content">
                         <h1 className="main-title">Международная ассоциация ИТ экспертов (GAITE)</h1>
                         <p className="sub-title">Объединяя таланты для цифрового будущего</p>
-                        <Link to="/details" className="main-button">Подробнее</Link>
+                        <Link to="/about" className="main-button">Подробнее</Link>
                     </div>
                     <div className="image-content">
                         <img src={mainImage} alt="IT Specialists" />

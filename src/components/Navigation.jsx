@@ -15,8 +15,8 @@ const Navigation = () => {
                     <Link to="/" className="link">
                         <i className="fa fa-home" aria-hidden="true"></i> Главная
                     </Link>
-                    <Link to="/charter" className="link">
-                        <i className="fa fa-file-text-o" aria-hidden="true"></i> Устав
+                    <Link to="/documents" className="link">
+                        <i className="fa fa-file-text-o" aria-hidden="true"></i> Документы
                     </Link>
                     <Link to="/members" className="link">
                         <i className="fa fa-users" aria-hidden="true"></i> Участники
