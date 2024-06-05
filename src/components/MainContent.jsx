@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import mainImage from '../img/main-bg.jpg';
-
+import documentImage from '../img/Folder-Mockup.webp';
 
 import goal1 from '../img/goals/goal1.png';
 import goal2 from '../img/goals/goal2.png';
@@ -100,6 +100,18 @@ const MainContent = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="documents-wrapper">
+            <h2>Наши документы</h2>
+            <div className="document-sub-block">
+                <img src={documentImage} alt="Document" className="document-image" />
+                <div className="document-text">
+                    <div className="document-title">Документы Ассоциации Global Association of IT Experts (GAITE)</div>
+                    <Link to="/documents" className="main-button">Перейти</Link>
+                </div>
+                </div>
+            </div>
+
         </div>
     );
 };
