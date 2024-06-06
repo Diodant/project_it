@@ -3,7 +3,7 @@ import ReactPaginate from 'react-paginate';
 import members from './membersData';
 import mainImage from '../img/members-bg.jpg';
 
-const ITEMS_PER_PAGE = 25;
+const ITEMS_PER_PAGE = 28;
 
 const Members = () => {
     const [currentPage, setCurrentPage] = useState(0);
@@ -27,12 +27,13 @@ const Members = () => {
                         <img src={mainImage} alt="IT Specialists" />
                     </div>
                 </div>
-                </div>
+            </div>
             <div className="members-grid">
                 {currentPageData.map(member => (
                     <div key={member.id} className="member-card">
                         <h2 className="member-name">{member.name} ({member.country})</h2>
                         <p className="member-description">{member.description}</p>
+                        <p className="member-year">Год вступления: {member.year}</p>
                     </div>
                 ))}
             </div>

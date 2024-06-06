@@ -484,7 +484,7 @@ a:focus {
 /* Ethics Code */
 
 .codex-wrapper {
-  padding: 50px 20px;
+  padding: 50px 0px;
   max-width: 1200px;
   margin: 50px auto;
 }
@@ -539,6 +539,56 @@ a:focus {
   height: 16px;
   background-color: #921cbc;
   border-radius: 50%;
+}
+
+.recipients-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0px 0px 50px 0px;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.recipients-table th, .recipients-table td {
+  padding: 15px 20px;
+}
+
+.recipients-table th {
+  background: #490a7d;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.recipients-table td {
+  background-color: #ffffff;
+  color: #3e3b3f;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.recipients-table tr:nth-of-type(even) td {
+  background-color: #f9f9f9;
+}
+
+.recipients-table tr:hover td {
+  background-color: #f1f1f1;
+  color: #34057b;
+}
+
+.recipients-table tr:hover td:first-child {
+  border-left: 5px solid #34057b;
+}
+
+.recipients-table th:first-child,
+.recipients-table td:first-child {
+  border-left: none;
+}
+
+.recipients-table th:last-child,
+.recipients-table td:last-child {
+  border-right: none;
 }
 
 /* Statute */
@@ -665,6 +715,13 @@ a:focus {
 .member-description {
   font-size: 18px;
   color: #3e3b3f;
+  padding-bottom: 10px;
+}
+
+.member-year {
+  font-size: 16px;
+  color: #3e3b3f;
+  font-weight: 600;
 }
 
 .pagination {
@@ -683,6 +740,7 @@ a:focus {
   text-decoration: none;
   font-size: 18px;
   padding: 10px 15px;
+  cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
