@@ -21,6 +21,9 @@ const Navigation = () => {
                     <Link to="/members" className="link">
                         <i className="fa fa-users" aria-hidden="true"></i> Участники
                     </Link>
+                    <Link to="/publications" className="link">
+                        <i className="fa fa-newspaper-o" aria-hidden="true"></i> Публикации
+                    </Link>
                     <Link to="/contacts" className="link">
                         <i className="fa fa-envelope-o" aria-hidden="true"></i> Контакты
                     </Link>
