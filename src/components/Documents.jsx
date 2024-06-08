@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import documentImage from '../img/Folder-Mockup.webp';
 
 const Documents = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="documents-wrapper">
             <div className="document-block">

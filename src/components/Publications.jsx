@@ -1,9 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import publications from './publicationsData';
+import mainImage from '../img/publications-bg.jpg';
 
 const Publications = () => {
     return (
+        <div className="publications-wrapper">
+            <div >
+            <div className="main-content">
+                <div className="content-overlay">
+                    <div className="text-content">
+                        <h1 className="main-title">Публикации Международной ассоциации ИТ экспертов (GAITE)</h1>
+                        <p className="sub-title">Ваш источник актуальных знаний и инноваций в мире ИТ.</p>
+                    </div>
+                    <div className="image-content">
+                        <img src={mainImage} alt="IT Specialists" />
+                    </div>
+                </div>
+            </div>
+            </div>
         <div className="publications-container">
             {publications.map((publication) => (
                 <div key={publication.id} className="publication-card">
@@ -20,6 +35,7 @@ const Publications = () => {
                     </Link>
                 </div>
             ))}
+        </div>
         </div>
     );
 };

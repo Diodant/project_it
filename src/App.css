@@ -328,6 +328,94 @@ a:focus {
   line-height: 1.6;
 }
 
+.contact-form-section {
+  padding: 40px 20px;
+  border-radius: 15px;
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1b1b29;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #1b1b29;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #921cbc;
+  box-shadow: 0 0 8px rgba(146, 28, 188, 0.5);
+  outline: none;
+}
+
+.submit-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(45deg, #921cbc, #34057b);
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  background: linear-gradient(45deg, #34057b, #921cbc);
+  transform: scale(1.05);
+}
+
+.thank-you-message {
+  color: #1b1b29;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.thank-you-message h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.thank-you-message p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+
+
 /* AboutUs  */
 
 .criteria-section {
@@ -759,6 +847,52 @@ a:focus {
   color: #fff;
 }
 
+.board-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 50px; /* Добавлено, чтобы разделить блоки */
+}
+
+.board-member-card {
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 1240px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.board-member-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.board-member-image {
+  width: 200px;
+  height: 242px;
+}
+
+.board-member-content {
+  padding: 20px;
+}
+
+.board-member-name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #1b1b29;
+}
+
+.board-member-description {
+  font-size: 22px;
+  color: #3e3b3f;
+}
+
 /* Publication */
 
 .publications-container {
@@ -767,6 +901,12 @@ a:focus {
   gap: 20px;
   justify-content: center;
   padding: 20px;
+}
+
+.publications-wrapper {
+  max-width: 1280px;
+  margin: 0px auto 100px auto;
+  text-align: center;
 }
 
 .publication-card {

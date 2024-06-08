@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import publications from './publicationsData';
-
 
 const PublicationDetail = () => {
     const { id } = useParams();
     const publication = publications.find(pub => pub.id === parseInt(id));
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     if (!publication) {
         return <div>Publication not found</div>;
