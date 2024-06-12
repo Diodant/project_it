@@ -200,6 +200,13 @@ a:focus {
   letter-spacing: 1.4px;
 }
 
+.title {
+  font-size: 40px;
+  color: #1b1b29;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
 .main-button {
   display: inline-block;
   padding: 15px 30px;

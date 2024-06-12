@@ -4,9 +4,9 @@ import members from './membersData';
 import mainImage from '../img/members-bg.jpg';
 import boardImage1 from '../img/boardmember1.jpg';
 import boardImage2 from '../img/boardmember2.jpg';
-import boardImage3 from '../img/boardmember2.jpg';
-import boardImage4 from '../img/boardmember2.jpg';
-import boardImage5 from '../img/boardmember2.jpg';
+import boardImage3 from '../img/boardmember3.webp';
+import boardImage4 from '../img/boardmember4.webp';
+import boardImage5 from '../img/boardmember5.jpg';
 
 const ITEMS_PER_PAGE = 28;
 
@@ -29,7 +29,7 @@ const boardMembers = [
         id: 3,
         name: 'Евгений Касперский',
         country: 'Грузия',
-        description: 'Основатель и генеральный директор компании «Лаборатория Касперского», одного из ведущих производителей антивирусного ПО.',
+        description: 'Основатель и генеральный директор компании «Лаборатория Касперского»',
         image: boardImage3
     },
     {
@@ -72,6 +72,7 @@ const Members = () => {
                 </div>
             </div>
             <div className="board-members">
+                <div className='title'>Члены правление</div>
                 {boardMembers.map(member => (
                     <div key={member.id} className="board-member-card">
                         <img src={member.image} alt={member.name} className="board-member-image" />
@@ -82,6 +83,8 @@ const Members = () => {
                     </div>
                 ))}
             </div>
+            <div>
+            <div className='title'>Список членов ассоциации</div>
             <div className="members-grid">
                 {currentPageData.map(member => (
                     <div key={member.id} className="member-card">
@@ -90,6 +93,7 @@ const Members = () => {
                         <p className="member-year">Год вступления: {member.year}</p>
                     </div>
                 ))}
+            </div>
             </div>
             <ReactPaginate
                 previousLabel={"← Назад"}
