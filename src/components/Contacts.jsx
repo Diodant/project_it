@@ -10,7 +10,7 @@ const Contacts = () => {
                     <FaMapMarkerAlt className="contact-icon" />
                     <div>
                         <p className="contact-label">Адрес:</p>
-                        <p className="contact-info">198826, Россия, Москва г., Филимонковское п., д. Бурцево, пер. 5-й Новобурцевский, д. 15</p>
+                        <p className="contact-info">198826, Россия, город Москва, поселение Филимонковское, деревня Бурцево, 5-й Новобурцевский переулок, дом 15</p>
                     </div>
                 </div>
                 <div className="contact-card">
@@ -31,7 +31,7 @@ const Contacts = () => {
                     <FaEnvelope className="contact-icon" />
                     <div>
                         <p className="contact-label">Email:</p>
-                        <p className="contact-info">pppp@gmail.com</p>
+                        <p className="contact-info">gaiteassociation@gmail.com</p>
                     </div>
                 </div>
             </div>

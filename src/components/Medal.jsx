@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const recipients = [
     { year: 2020, name: "Дмитрий Гришин", country: "Россия" },
@@ -29,6 +29,11 @@ const recipients = [
 ];
 
 const Medal = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <div className="codex-wrapper">
             <h1 className="codex-title">Устав Почетного Вручения Медали "За Вклад в Развитие IT Индустрии"</h1>

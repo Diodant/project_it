@@ -18,9 +18,9 @@ const Footer = () => {
                     <Link to="/contacts" className="footer-link">Контакты</Link>
                 </div>
                 <div className="footer-contact">
-                    <p>Адрес: Россия, Москва г., Филимонковское п., д. Бурцево</p>
+                    <p>Адрес: 198826, Россия, город Москва, поселение Филимонковское, деревня Бурцево, 5-й Новобурцевский переулок, дом 15</p>
                     <p>Телефон: +7(499) 290-5005</p>
-                    <p>Email: pppp@gmail.com</p>
+                    <p>Email: gaiteassociation@gmail.com</p>
                 </div>
                 <div className="footer-copy">
                     <p>&copy; 2019 Global Association of IT Experts (GAITE). All rights reserved.</p>

@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 
 const Statute = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     return (
       <div className="statute-wrapper">
       <h1 className="statute-title">Устав Ассоциации Global Association of IT Experts (GAITE)</h1>
       <p className="statute-text"><i>Утвержден Общим собранием членов Global Association of IT Experts (GAITE)</i></p>
-      <p className="statute-text"><i>Протокол № 2 от 11 мая 2020 года</i></p>
+      <p className="statute-text"><i>Протокол № 2 от 14 января 2020 года</i></p>
       <p className="statute-text"><i>г. Москва, 2020 год</i></p>
 
       <div className="statute-toc">

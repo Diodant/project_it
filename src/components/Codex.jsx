@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Codex = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     return (
         <div className="codex-wrapper">
             <h1 className="codex-title">Этический кодекс ассоциации Global Association of IT Experts (GAITE)</h1>
