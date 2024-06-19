@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import medalImage from '../img/medal.png';
 
 const recipients = [
     { year: 2020, name: "Дмитрий Гришин", country: "Россия" },
@@ -36,6 +37,9 @@ const Medal = () => {
 
     return (
         <div className="codex-wrapper">
+            <div className='medal-image'>
+            <img src={medalImage} alt="Medal" />
+            </div>
             <h1 className="codex-title">Устав Почетного Вручения Медали "За Вклад в Развитие IT Индустрии"</h1>
 
 

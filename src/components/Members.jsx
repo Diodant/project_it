@@ -72,7 +72,7 @@ const Members = () => {
                 </div>
             </div>
             <div className="board-members">
-                <div className='title'>Члены правление</div>
+                <div className='title'>Члены правления</div>
                 {boardMembers.map(member => (
                     <div key={member.id} className="board-member-card">
                         <img src={member.image} alt={member.name} className="board-member-image" />

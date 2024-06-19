@@ -690,6 +690,16 @@ a:focus {
   border-right: none;
 }
 
+.medal-image {
+  display: flex;
+  justify-content: center;
+}
+
+.medal-image img{
+  width: 500px;
+  height: auto;
+}
+
 /* Statute */
 
 .statute-wrapper {
@@ -860,7 +870,7 @@ a:focus {
   gap: 20px;
   justify-content: center;
   padding: 20px;
-  margin-bottom: 50px; /* Добавлено, чтобы разделить блоки */
+  margin-bottom: 50px;
 }
 
 .board-member-card {
