@@ -15,7 +15,7 @@ const recipients = [
     { year: 2022, name: "Александр Гордеев", country: "Украина" },
     { year: 2022, name: "Дмитрий Денисов", country: "Казахстан" },
     { year: 2022, name: "Игорь Захаров", country: "Грузия" },
-    { year: 2022, name: "Сергей Иванов", country: "Россия" },
+    { year: 2022, name: "Игорь Тертичко", country: "Украина" },
     { year: 2022, name: "Алексей Кузьмин", country: "Беларусь" },
     { year: 2023, name: "Андрей Зайцев", country: "Молдова" },
     { year: 2023, name: "Антон Егоров", country: "Казахстан" },
