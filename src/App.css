@@ -949,7 +949,7 @@ a:focus {
 
 .publication-image {
   width: 100%;
-  height: auto;
+  height: 150px;
   transition: transform 0.3s ease;
 }
 
@@ -995,7 +995,7 @@ a:focus {
 .publication-detail-title {
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 20px 0px;
   color: #1b1b29;
 }
 
@@ -1017,7 +1017,7 @@ a:focus {
 }
 
 .publication-detail-content {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   color: #3e3b3f;
 }
