@@ -3,30 +3,20 @@ import medalImage from '../img/medal.png';
 
 const recipients = [
     { year: 2020, name: "Дмитрий Гришин", country: "Россия" },
-    { year: 2020, name: "Володимир Топозли", country: "Украина" },
     { year: 2020, name: "Артем Боровик", country: "Молдова" },
     { year: 2020, name: "Алексей Репик", country: "Узбекистан" },
-    { year: 2020, name: "Алексей Чалый", country: "Беларусь" },
     { year: 2021, name: "Олег Макаров", country: "Таджикистан" },
     { year: 2021, name: "Александр Шульгин", country: "Россия" },
-    { year: 2021, name: "Александр Волков", country: "Беларусь" },
     { year: 2021, name: "Дмитрий Лебедев", country: "Грузия" },
-    { year: 2021, name: "Илья Варламов", country: "Молдова" },
-    { year: 2022, name: "Александр Гордеев", country: "Украина" },
-    { year: 2022, name: "Дмитрий Денисов", country: "Казахстан" },
     { year: 2022, name: "Игорь Захаров", country: "Грузия" },
+    { year: 2022, name: "Дмитрий Денисов", country: "Казахстан" },
     { year: 2022, name: "Игорь Тертичко", country: "Украина" },
-    { year: 2022, name: "Алексей Кузьмин", country: "Беларусь" },
+    { year: 2023, name: "Володимир Топозли", country: "Украина" },
     { year: 2023, name: "Андрей Зайцев", country: "Молдова" },
     { year: 2023, name: "Антон Егоров", country: "Казахстан" },
-    { year: 2023, name: "Иван Григорьев", country: "Россия" },
-    { year: 2023, name: "Александр Петров", country: "Беларусь" },
-    { year: 2023, name: "Дмитрий Иванов", country: "Россия" },
     { year: 2024, name: "Виктор Иванов", country: "Армения" },
     { year: 2024, name: "Михаил Кузнецов", country: "Казахстан" },
     { year: 2024, name: "Анна Кузнецова", country: "Украина" },
-    { year: 2024, name: "Николай Соколов", country: "Беларусь" },
-    { year: 2024, name: "Ольга Петрова", country: "Армения" },
 ];
 
 const Medal = () => {
