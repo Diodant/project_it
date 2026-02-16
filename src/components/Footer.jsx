@@ -23,7 +23,7 @@ const Footer = () => {
                     <p>Email: gaiteassociation@gmail.com</p>
                 </div>
                 <div className="footer-copy">
-                    <p>&copy; 2019 Global Association of IT Experts (GAITE). All rights reserved.</p>
+                    <p>&copy; 2018 Global Association of IT Experts (GAITE). All rights reserved.</p>
                 </div>
             </div>
         </footer>

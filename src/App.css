@@ -1162,3 +1162,17 @@ a:focus {
   margin-top: 20px;
   font-size: 14px;
 }
+
+/* По-умолчанию прячем английскую версию */
+.name-en {
+  display: none;
+}
+
+/* Когда Google Translate меняет <html lang="en">, 
+   показываем name-en и скрываем name-ru */
+html[lang="en"] .name-ru {
+  display: none;
+}
+html[lang="en"] .name-en {
+  display: inline;
+}

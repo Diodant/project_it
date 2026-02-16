@@ -87,12 +87,36 @@ const Members = () => {
             <div className='title'>Список членов ассоциации</div>
             <div className="members-grid">
                 {currentPageData.map(member => (
-                    <div key={member.id} className="member-card">
-                        <h2 className="member-name">{member.name} ({member.country})</h2>
-                        <p className="member-description">{member.description}</p>
-                        <p className="member-year">Год вступления: {member.year}</p>
-                    </div>
+                  <div key={member.id} className="member-card">
+                    <h2 className="member-name">
+                      {member.id === 143 
+                        ? (
+                          <>
+                            {/* русская версия, переводимая Google */}
+                            <span className="name-ru" lang="ru">
+                              {member.name}
+                            </span>
+                            {/* «запретный» от перевода Google, всегда английская */}
+                            <span 
+                              className="name-en notranslate" 
+                              translate="no" 
+                              lang="en"
+                            >
+                              Bogdan Pan’kovs’ky
+                            </span>
+                          </>
+                        ) 
+                        : (
+                          member.name
+                        )
+                      }
+                      {" "}({member.country})
+                    </h2>
+                    <p className="member-description">{member.description}</p>
+                    <p className="member-year">Год вступления: {member.year}</p>
+                  </div>
                 ))}
+
             </div>
             </div>
             <ReactPaginate
